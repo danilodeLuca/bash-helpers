@@ -7,7 +7,7 @@ checkArgs() {
   if [ $argsNumber -lt 1 ]; then
     echo "Usage: $0 <nome_da_branch> "
     echo "Exemplos:"
-    echo "$0 https://dextranet.dextra.com.br/svn/confidence_operacao/branches/confidence/pre_release_dx_3.49.0_darf"
+    echo "$0 SVN_URL"
     exit 1
   fi
 }
