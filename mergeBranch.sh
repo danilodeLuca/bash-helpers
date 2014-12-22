@@ -13,7 +13,7 @@ checkArgs() {
   if [ $argsNumber -lt 3 ]; then
   	echo "Usage: [START_REVISION] [END_REVISION] [FROM_BRANCH]"
    	echo "Exemplos:"
-    echo "34910 3920 https://dextranet.dextra.com.br/svn/confidence_operacao/branches/confidence/pre_release_dx_3.49.0_darf"
+    echo "34910 3920 BRANCH_URL"
     exit 1
   fi
 }
